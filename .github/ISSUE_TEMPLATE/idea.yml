@@ -1,0 +1,20 @@
+name: "💡 Idea o mejora"
+description: Proponer una funcionalidad nueva
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: ¿Qué problema ciudadano resuelve?
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+    validations:
+      required: true
+  - type: textarea
+    id: fuentes
+    attributes:
+      label: ¿Qué datos o fuentes requiere?

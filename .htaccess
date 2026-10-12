@@ -1,0 +1,31 @@
+# Apache URL Rewriting para Pulso Cívico
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # --- Seguridad: solo las fotos públicas de legisladores son accesibles dentro de storage/ ---
+    RewriteRule ^storage/raw/photos/[^/]+\.(jpe?g|png|webp)$ - [NC,L]
+
+    # --- Seguridad: bloquear carpetas internas (código, datos crudos, logs, herramientas) ---
+    RewriteRule ^(storage|src|tools|bin|config|database|views|docs)(/|$) - [F,L]
+
+    # --- Seguridad: bloquear archivos legacy ---
+    RewriteRule ^index\.old\.php$ - [F,L]
+
+    # Si el archivo o directorio físico existe, servirlo directamente (ej. imágenes, assets)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redirigir todas las rutas limpias al Front Controller index.php
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+# --- Seguridad: ocultar dotfiles (.env, .git, .gitignore) y archivos de proyecto ---
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+<FilesMatch "\.(md|sql|log|jsonl|ps1|sh|example)$">
+    Require all denied
+</FilesMatch>
+
+# Evitar listado de directorios
+Options -Indexes

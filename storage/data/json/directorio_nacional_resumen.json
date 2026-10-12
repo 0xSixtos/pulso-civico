@@ -1,0 +1,203 @@
+{
+    "titulo": "Directorio Consolidado Nacional - LXVI Legislatura",
+    "alcance": "32 Entidades Federativas (100% Cobertura Nacional)",
+    "generado_en": "2026-10-09T20:14:04+02:00",
+    "entidades_procesadas": 32,
+    "total_diputados": 484,
+    "total_senadores": 99,
+    "total_general": 583,
+    "entidades": {
+        "1": {
+            "nombre": "Aguascalientes",
+            "diputados": 9,
+            "senadores": 3,
+            "total": 12
+        },
+        "2": {
+            "nombre": "Baja California",
+            "diputados": 18,
+            "senadores": 6,
+            "total": 24
+        },
+        "3": {
+            "nombre": "Baja California Sur",
+            "diputados": 2,
+            "senadores": 3,
+            "total": 5
+        },
+        "4": {
+            "nombre": "Campeche",
+            "diputados": 7,
+            "senadores": 3,
+            "total": 10
+        },
+        "5": {
+            "nombre": "Coahuila",
+            "diputados": 18,
+            "senadores": 3,
+            "total": 21
+        },
+        "6": {
+            "nombre": "Colima",
+            "diputados": 14,
+            "senadores": 3,
+            "total": 17
+        },
+        "7": {
+            "nombre": "Chiapas",
+            "diputados": 12,
+            "senadores": 3,
+            "total": 15
+        },
+        "8": {
+            "nombre": "Chihuahua",
+            "diputados": 4,
+            "senadores": 3,
+            "total": 7
+        },
+        "9": {
+            "nombre": "Ciudad de México",
+            "diputados": 49,
+            "senadores": 3,
+            "total": 52
+        },
+        "10": {
+            "nombre": "Durango",
+            "diputados": 9,
+            "senadores": 3,
+            "total": 12
+        },
+        "11": {
+            "nombre": "Guanajuato",
+            "diputados": 17,
+            "senadores": 3,
+            "total": 20
+        },
+        "12": {
+            "nombre": "Guerrero",
+            "diputados": 9,
+            "senadores": 3,
+            "total": 12
+        },
+        "13": {
+            "nombre": "Hidalgo",
+            "diputados": 9,
+            "senadores": 3,
+            "total": 12
+        },
+        "14": {
+            "nombre": "Jalisco",
+            "diputados": 32,
+            "senadores": 3,
+            "total": 35
+        },
+        "15": {
+            "nombre": "México",
+            "diputados": 58,
+            "senadores": 3,
+            "total": 61
+        },
+        "16": {
+            "nombre": "Michoacán",
+            "diputados": 18,
+            "senadores": 3,
+            "total": 21
+        },
+        "17": {
+            "nombre": "Morelos",
+            "diputados": 6,
+            "senadores": 3,
+            "total": 9
+        },
+        "18": {
+            "nombre": "Nayarit",
+            "diputados": 4,
+            "senadores": 3,
+            "total": 7
+        },
+        "19": {
+            "nombre": "Nuevo León",
+            "diputados": 25,
+            "senadores": 3,
+            "total": 28
+        },
+        "20": {
+            "nombre": "Oaxaca",
+            "diputados": 19,
+            "senadores": 3,
+            "total": 22
+        },
+        "21": {
+            "nombre": "Puebla",
+            "diputados": 23,
+            "senadores": 3,
+            "total": 26
+        },
+        "22": {
+            "nombre": "Querétaro",
+            "diputados": 10,
+            "senadores": 3,
+            "total": 13
+        },
+        "23": {
+            "nombre": "Quintana Roo",
+            "diputados": 7,
+            "senadores": 3,
+            "total": 10
+        },
+        "24": {
+            "nombre": "San Luis Potosí",
+            "diputados": 12,
+            "senadores": 3,
+            "total": 15
+        },
+        "25": {
+            "nombre": "Sinaloa",
+            "diputados": 10,
+            "senadores": 3,
+            "total": 13
+        },
+        "26": {
+            "nombre": "Sonora",
+            "diputados": 11,
+            "senadores": 3,
+            "total": 14
+        },
+        "27": {
+            "nombre": "Tabasco",
+            "diputados": 6,
+            "senadores": 3,
+            "total": 9
+        },
+        "28": {
+            "nombre": "Tamaulipas",
+            "diputados": 12,
+            "senadores": 3,
+            "total": 15
+        },
+        "29": {
+            "nombre": "Tlaxcala",
+            "diputados": 4,
+            "senadores": 3,
+            "total": 7
+        },
+        "30": {
+            "nombre": "Veracruz",
+            "diputados": 29,
+            "senadores": 3,
+            "total": 32
+        },
+        "31": {
+            "nombre": "Yucatán",
+            "diputados": 12,
+            "senadores": 3,
+            "total": 15
+        },
+        "32": {
+            "nombre": "Zacatecas",
+            "diputados": 9,
+            "senadores": 3,
+            "total": 12
+        }
+    }
+}

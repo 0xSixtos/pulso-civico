@@ -1,0 +1,319 @@
+{
+    "periodo_id": 1,
+    "total_sesiones": 39,
+    "sesiones": [
+        {
+            "id_sesion_origen": 2,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "1 de Septiembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 3,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "1 de Septiembre de 2024",
+            "numero_en_dia": 2
+        },
+        {
+            "id_sesion_origen": 4,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "3 de Septiembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 5,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "13 de Septiembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 6,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "18 de Septiembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 7,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "19 de Septiembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 8,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "24 de Septiembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 9,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "25 de Septiembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 10,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "29 de Septiembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 11,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "1 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 12,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "2 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 13,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "8 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 14,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "9 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 15,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "14 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 16,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "14 de Octubre de 2024",
+            "numero_en_dia": 2
+        },
+        {
+            "id_sesion_origen": 17,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "16 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 18,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "16 de Octubre de 2024",
+            "numero_en_dia": 2
+        },
+        {
+            "id_sesion_origen": 19,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "22 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 20,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "23 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 21,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "23 de Octubre de 2024",
+            "numero_en_dia": 2
+        },
+        {
+            "id_sesion_origen": 22,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "29 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 23,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "30 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 24,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "31 de Octubre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 25,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "5 de Noviembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 26,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "5 de Noviembre de 2024",
+            "numero_en_dia": 2
+        },
+        {
+            "id_sesion_origen": 27,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "6 de Noviembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 28,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "12 de Noviembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 29,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "13 de Noviembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 30,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "20 de Noviembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 31,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "21 de Noviembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 32,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "26 de Noviembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 33,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "26 de Noviembre de 2024",
+            "numero_en_dia": 2
+        },
+        {
+            "id_sesion_origen": 34,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "27 de Noviembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 35,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "3 de Diciembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 36,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "5 de Diciembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 37,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "10 de Diciembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 38,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "10 de Diciembre de 2024",
+            "numero_en_dia": 2
+        },
+        {
+            "id_sesion_origen": 39,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "11 de Diciembre de 2024",
+            "numero_en_dia": 1
+        },
+        {
+            "id_sesion_origen": 40,
+            "camara": "Diputados",
+            "legislatura": 66,
+            "periodo_id": 1,
+            "fecha": "11 de Diciembre de 2024",
+            "numero_en_dia": 2
+        }
+    ],
+    "fecha_extraccion": "2026-10-09 20:50:02"
+}

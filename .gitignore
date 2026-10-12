@@ -1,0 +1,44 @@
+# ============================================
+# Pulso Cívico — .gitignore
+# ============================================
+
+# --- Secretos y entorno local ---
+.env
+.env.*
+!.env.example
+storage/raw/cookie.txt
+*.cookie
+
+# --- Datos crudos (se regeneran con los scrapers) ---
+storage/raw/html/
+storage/raw/*.txt
+storage/raw/*.html
+
+# --- Logs ---
+storage/logs/*
+!storage/logs/.gitkeep
+*.log
+*.jsonl
+
+# --- Legacy / respaldos ---
+index.old.php
+*.bak
+*.old
+*.orig
+*~
+
+# --- Dependencias (si se agregan en el futuro) ---
+/vendor/
+/node_modules/
+
+# --- IDE / SO ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Caché de herramientas ---
+.phpunit.cache/
+.phpstan.cache/

@@ -1,0 +1,37 @@
+name: "📥 Nueva fuente de datos"
+description: Proponer o adoptar un portal oficial (legislatura, congreso local, etc.)
+labels: ["fuente-nueva", "datos"]
+body:
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre de la fuente
+      placeholder: "Congreso de Jalisco - LXIV Legislatura"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL oficial
+    validations:
+      required: true
+  - type: textarea
+    id: datos
+    attributes:
+      label: ¿Qué datos ofrece?
+      placeholder: "Diputados, votaciones, asistencias, iniciativas..."
+    validations:
+      required: true
+  - type: dropdown
+    id: formato
+    attributes:
+      label: Formato
+      multiple: true
+      options: [HTML, PDF, CSV/Excel, API JSON, Otro]
+  - type: checkboxes
+    id: adoptar
+    attributes:
+      label: Participación
+      options:
+        - label: Quiero programar el scraper de esta fuente
+        - label: Solo la reporto, que alguien más la tome
