@@ -146,13 +146,18 @@ async def api_exportar_explorador_csv(
     educacion: str = Query("todos"),
     columnas: str = Query("nombre,cargo,nivel,entidad,partido,transicion,principio,licencia,asistencia,iniciativas")
 ):
-    res = data_service.consultar_explorador(
+    filtros = dict(
         q=q, nivel=nivel, cargo=cargo, entidad=entidad, partido=partido,
         transicion=transicion, principio=principio, licencia=licencia, reeleccion=reeleccion,
-        periodo=periodo, educacion=educacion,
-        page=1, limit=5000
+        periodo=periodo, educacion=educacion
     )
-    items = res.get("items", [])
+    page = 1
+    res = data_service.consultar_explorador(**filtros, page=page, limit=5000)
+    items = list(res.get("items", []))
+    while res.get("has_more"):
+        page += 1
+        res = data_service.consultar_explorador(**filtros, page=page, limit=5000)
+        items.extend(res.get("items", []))
     cols = [c.strip() for c in columnas.split(",") if c.strip()]
 
     col_map = {
